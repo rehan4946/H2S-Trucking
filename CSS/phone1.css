@@ -1,0 +1,24 @@
+*{
+    padding: 10px;
+    margin: 0px;
+    
+}
+body{
+    background-color: white;
+    background-image: url(../IMG/oml.png.jpeg);
+}
+
+.container{
+padding: 1em 0em 0em 0em;
+    width: 100%;
+    border-radius: 0px;
+
+}
+
+.container img{
+    width: 100%;
+    display: none;
+}
+.divider{
+    height: 0.19px;
+}

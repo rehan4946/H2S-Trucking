@@ -1,0 +1,809 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+
+
+/* Header  */
+
+
+
+
+@media  screen and (max-width:1330px){
+    
+   #mainhead{
+     
+display: none;
+
+   }
+    
+}
+
+#mainhead{
+    display: flex;
+    height: 43px;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(300deg, #d4602b  30%, #344094 0%);
+}
+
+
+
+
+@media  screen and (max-width:1330px){
+    
+    #head1{
+    
+ 
+      display: none;
+    }
+     
+ }
+
+#head1{
+
+    color: white;
+    /* background-color: #344094; */
+    display: flex;
+    width: 63%;
+    padding: 13px 111px;
+    cursor: pointer;
+}
+#phone{
+     display: flex;
+     margin: 0px 33px;
+}
+#num{
+    margin-left: 14px;
+}
+#email{
+display: flex;
+
+}
+#h2s{
+    margin-left: 14px;
+}
+
+@media  screen and (max-width:1330px){
+    
+    #head2{
+      
+ 
+ display: none;
+    }
+     
+ }
+
+
+
+
+
+
+
+#head2{
+    display: flex;
+    /* background-color: #d4602b; */
+    width: 37%;
+    align-items: center;
+    justify-content: center;
+
+}
+#logos{
+    display: flex;
+    padding-left: 2px;
+}
+.clients{
+    color: #344094;
+    display: flex;
+    padding: 2px 13px;
+}
+
+.clients i{
+    transition: all 0.3s ease-in-out;
+}
+.clients i:hover{
+    color: white;
+}
+
+/* Home Section  */
+#home{
+    position: relative;
+    display: flex;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    top: 0px;
+    left: 0px;
+    
+    height: 100%;
+    width: 100%;
+    
+
+}
+ 
+
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background:linear-gradient(rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)),  url(../IMG/h2spri.bg.png) no-repeat center center / cover;
+    height: 390px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 0 0 50% 50% / 0 0 12% 12%;
+    transform: scale(1);
+
+
+
+}
+
+
+@media screen and (max-width:1330px) {
+
+      #logomain img{
+        display: none;
+      }
+      #logomain{
+        display: none;
+      }
+    
+}
+#logomain{
+    margin: 16px 143px;
+}
+#logomain img{
+    
+    height: 65px;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:1330px){
+    
+    #navbar{
+        padding: 2em 0em 0em 17em;
+ 
+ 
+    }
+     
+ }
+#navbar{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+display: flex;
+margin: 0px 3px;
+align-items: center;
+justify-content: center;
+margin-left:  159px;
+
+}
+#navul{display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 24px;
+    color: white;
+    transition: color 0.7s  ;
+   
+    
+}
+#navbar  li a:hover,#navbar  li a.active{
+    
+    color: #d15f2b;
+    
+}
+
+@media  screen and (max-width:1330px){
+    
+    #btn1{
+      display: none;
+ 
+ 
+    }
+     
+ }
+
+
+
+ #btn1{
+    margin: 26px 131px;
+
+    
+ }
+ .btn{
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    padding: 11px 40px;
+    border: 1px solid white;
+    border-radius: 22px;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out ;
+}
+.btn:hover{
+    color: white;
+    background-color: #d15f2b;
+    border: none;
+}
+
+.section2{
+
+    padding: 85px 0px 0px 0px;
+    
+    display: flex;
+    height: 200px;
+    
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact-banner */
+
+
+
+
+@media screen and (max-width:1330px){
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 1035px ;
+    padding: 1em 0em 0em 0em;
+
+}
+
+#h5line3{
+    width: 100%;
+}
+
+.sign-box{
+    padding: 4em 0em 0em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hor-sign-up{
+    height: 570px;
+    width: 335px;
+    
+    margin: 0em 2em;
+
+}
+.top-sign{
+    border-radius: 4px;
+    margin: 0em 0em 0em 0em;
+    background-color: #344094;
+    
+}
+.down-sign{
+   margin-top: 55px;
+    border-radius: 4px ;
+    box-shadow: 0px 5px 20px 4px rgba(0, 0, 0, 0.1);
+}
+.info-sign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 7em 0em 0em 0em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pricing-banner */
+
+
+
+
+.section4{
+    
+    padding: 40px 0px 0px 0px;
+}
+
+.infodigit{
+    gap: 120px;
+    background-color: #344094;
+    margin: 0px auto;
+   border-radius: 6px;
+    width: 83%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.digit{
+  
+    font-family: "kanit";
+    font-size: 30px ;
+    font-style: normal;
+    font-weight: 600;
+  
+    color: white;
+  }
+  
+  .digit i{
+      margin-left: 3px;
+      color: #D4602B;
+      
+  }
+
+
+
+
+
+
+
+
+
+/* Footer  */
+#section7{
+    background-color: #2f3b50;
+    width: 100%;
+    height: 516px;
+    display: flex;
+}
+
+.h2slogo-desc{
+    width: 28%;
+    padding: 100px 0px 0px 155px;
+}
+.h2slogo-desc img{
+    width: 336px;
+    
+}
+
+
+.bottom{
+    background-image: linear-gradient(236deg, #d4602b 52%, #344094 0%);
+    width: 100%;
+    height: 55px;
+}
+
+.bottom-info{
+  
+    margin: 100px 16px;
+    width: 255px;
+    height: 310px;
+    
+}
+
+.foot1{
+    width: 50%;
+left: 135px;
+    position: relative;
+    float: left;
+}
+.foot2{
+    right: 82px;
+    position: relative;
+    float: right;
+
+}
+
+
+
+
+/* Utility classes */
+
+
+
+
+/* paragraph */
+
+.para5{
+    text-align: left;
+    
+    width: 78%;
+   
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+.para6{
+    padding: 5px 0px;
+    text-align: left;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    transition: all 0.5s ease-in-out ;
+    cursor: pointer;
+}
+.para6:hover{
+    color: #d4602b;
+}
+.para6 i{
+    color: #d4602b;
+    margin: 0px 10px 0px 0px;
+}
+
+.para-foot1{
+    padding: 14px 0px;
+    
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    
+}
+.para-foot2{
+    padding: 14px 0px;
+    
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #3f2c30;
+    
+}
+
+.parawhite2{
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.parablue-cen{
+
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #8e8e8e;
+    margin-top: 14px;
+    padding: 1em 28em;
+}
+
+
+.para-hr{
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.para-hr i{
+    color: #D4602B;
+    padding: 0px 2px 0px 0px;
+}
+.top-hr{
+    padding: 3em 0em 0em 0em;
+}
+.top-hr1{
+    padding: 6px 0px 0px 0px;
+}
+.para-hr-1{
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color:#344094;
+}
+.para-hr-1 i{
+
+    color: #D4602B;
+    padding: 0px 2px 0px 0px;
+}
+
+.parawhite-sign{
+    margin: 0px auto;
+    width: 45%;
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.parawhite-sign2{
+    margin: 0px auto;
+    width: 45%;
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+/* heading  */
+
+.heading-1{
+    font-family: "kanit";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+.heading-1white{
+    font-family: "kanit";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+
+}
+
+.heading-5-bottom{
+    color: #cd5e2c;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.heading-1blue-2{
+    text-align: center;
+    font-family: "kanit";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  color: #0A1931;
+}
+.heading-1blue-2  span{ 
+    color: #344094;
+    background-image: linear-gradient(360deg,#d15f2b 26%, transparent 0%);
+}
+
+.heading-1blue-2{
+    text-align: center;
+    font-family: "kanit";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  color: #0A1931;
+}
+.heading-1blue-2  span{ 
+    color: #344094;
+    background-image: linear-gradient(360deg,#d15f2b 26%, transparent 0%);
+}
+
+.heading-5blue2{
+    justify-content: center;
+    display: flex;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #344094;
+}
+
+
+.heading-1org{
+    font-family: "kanit";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    color:#d4602b ;
+    text-align: center;
+
+}
+
+
+
+.heading-5blue-sign{
+    padding: 5em 0em 0em 0em;
+    justify-content: center;
+    display: flex;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    color: #344094;
+
+}
+.heading-5blue-sign1{
+padding: 1em 0em 0em 0em;
+   
+    justify-content: center;
+    display: flex;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    color: #344094;
+}
+
+/* button */
+
+
+
+.btn-bottom{
+    width: 47px;
+    margin: 35px 18px 0px 0px;
+    height: 45px;
+    justify-content: center;
+   
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    border-radius: 45px;
+    color: #0a1931;
+    background-color: #d4602b;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-bottom:hover{
+    background-color: #344094;
+    i{
+        color: white;
+    }
+}
+
+
+.form-btn{
+    margin: 15px 0px 0px 0px;
+}
+.form-btn input{
+    width: 185px;
+    text-align: center;
+    border: none;
+    height: 46px;
+    border-radius: 23px 0px 0px 23px;
+}
+.joint-btn{
+    width: 70px;
+    /* text-align: center; */
+    border: none;
+    height: 46px;
+    border-radius: 0px 23px 23px 0px;
+    margin: 0px 0px 0px -4px;
+    color:  #0a1931;
+    background-color:#d4602b ;
+    transition: all 0.5s ease-in-out;
+}
+.joint-btn:hover{
+    background-color: #344094;
+    i{
+        color: white;
+}
+}
+
+.btn-white{
+    margin: 6px auto;
+    display: block;
+    justify-content: center;
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 12px 42px;
+    border-radius: 22px;
+    background-color: #344094;
+    transition: all 0.5s ease-in-out;
+    background-color: #d15f2b;
+    
+
+}
+.btn-white:hover{
+    background-color: white;
+color:  #344094;
+}
+.btn-org{
+    margin: 6px auto;
+    display: block;
+    justify-content: center;
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 12px 42px;
+    border-radius: 22px;
+    background-color: #344094;
+    transition: all 0.5s ease-in-out;
+    
+    
+
+}
+.btn-org:hover{
+    background-color:#d15f2b;
+color:   white;
+}
+
+/* elementor-divider */
+
+
+.elementor-divider-full{
+    margin: 16px auto;
+    
+    
+    height: 0.1px;
+   
+    width: 225px;
+    background-color: #8c8c8c;
+}
+.elementor-divider-full-1{
+    margin: 16px auto;
+    
+    
+    height: 0.1px;
+   
+    width: 225px;
+    background-color: #f1e3e3;
+}
+
+
+
+.elementor-divider-left{
+    height: 0.1px;
+    margin: 19px 26px 0px 0px;
+    
+    width: 185px;
+    background: #344094;
+    display: block;
+}
+.elementor-divider-right{
+    height: 0.1px;
+    margin: 19px 0px 0px 26px;
+    width: 185px;
+    background: #344094;
+    display: block;
+}

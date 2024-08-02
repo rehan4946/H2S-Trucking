@@ -1,0 +1,1329 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+#mainhead{
+    display: flex;
+    height: 43px;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(300deg, #d4602b  30%, #344094 0%);
+}
+#head1{
+
+    color: white;
+    /* background-color: #344094; */
+    display: flex;
+    width: 63%;
+    padding: 13px 111px;
+    cursor: pointer;
+}
+#phone{
+     display: flex;
+     margin: 0px 33px;
+}
+#num{
+    margin-left: 14px;
+}
+#email{
+display: flex;
+
+}
+#h2s{
+    margin-left: 14px;
+}
+
+#head2{
+    display: flex;
+    /* background-color: #d4602b; */
+    width: 37%;
+    align-items: center;
+    justify-content: center;
+
+}
+#logos{
+    display: flex;
+    padding-left: 2px;
+}
+.clients{
+    color: #344094;
+    display: flex;
+    padding: 2px 13px;
+}
+
+.clients i{
+    transition: all 0.3s ease-in-out;
+}
+.clients i:hover{
+    color: white;
+}
+
+/* Home Section  */
+#home{
+    position: relative;
+    display: flex;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    top: 0px;
+    left: 0px;
+    
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#home::before{
+    content: "";
+position: absolute;
+background: url('../IMG/bg.h2s.jpg') no-repeat center center/cover;
+height: 620px;
+width: 100%;
+z-index: -1;
+opacity: 11;
+border-radius: 0 0 70% 70%/ 0 0 10% 10%;
+transform: scale(1);
+
+
+}
+
+#logomain{
+    margin: 16px 143px;
+}
+#logomain img{
+    height: 65px;
+    cursor: pointer;
+}
+#navbar{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+display: flex;
+margin: 0px 3px;
+align-items: center;
+justify-content: center;
+margin-left:  159px;
+
+}
+#navul{display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 24px;
+    color: white;
+    transition: color 0.7s  ;
+   
+    
+}
+#navbar  li a:hover,#navbar  li a.active{
+    
+    color: #d15f2b;
+    
+}
+ #btn1{
+    margin: 26px 131px;
+
+    
+ }
+ 
+ 
+ #section1{
+    margin-top: 105px;
+    height: 400px;
+  
+    width: 40%;
+  
+    margin-left: 51%;
+}
+#h5line{
+    display: flex;
+    
+}
+#bgline1{
+    margin-top: 10px;
+}
+#bgline1 .heading-1 span{
+    color: #d15f2b;
+    background-image: linear-gradient(360deg, #344094 26%, transparent 0%);
+}
+    
+
+
+#parasec1{
+    width: 84%;
+}
+
+
+    
+    #btn2{
+        margin-top: 28px;
+    }
+
+
+#section2{
+    margin-top: 144px;
+    width: 50%;
+    height: 475px;
+ 
+    display: flex;
+}
+#section2main{
+    display: flex;
+}
+#h5line2{
+    
+    width: 69%;
+    margin-left: 144px;
+}
+#bgline2{
+    
+        margin-top: 16px;
+}
+
+
+#button3{
+    display: flex;
+}
+.box2 .active{
+    background-color: #d15f2b;
+}
+
+
+#form{
+    color:#344094 ;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    
+    margin-top: -467px;
+    margin-left: 586px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 125%;
+    border: none;
+    box-shadow: 0px 5px 20px 4px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    border-radius: 3px;
+}
+#form1{
+    
+    margin-left: 0px;
+    margin-top: -250px;
+}
+#form1 label{
+    display: block;
+}
+#form2{
+    margin-left: 11px;
+    margin-top: -250px;
+}
+#form2 label{
+    display: block;
+}
+#form3{
+    margin-top: 120px;
+    margin-left: -565px;
+}
+#form3 .textarea{
+    border-radius: 3px;
+    height: 8%;
+    width: 190%;
+    border: 2px solid #e4e1e1;
+}
+.input-uti{
+    border:2px solid #e4e1e1;
+   border-radius: 3px;
+    margin: 16px 0px;
+    height: 50px;
+    width: 274px;
+}
+
+#section3{
+    margin-top: 32px;
+    width: 100%;
+    height: 200%;
+    /* background-position: center;
+    background-size: cover; */
+    background: linear-gradient(rgb(4 18 77 / 0.5),rgb(4 18 77 / 0.5 ) ), url('../IMG/h2s2.bg.jpg') no-repeat center center/cover;
+    
+    
+}
+
+/* #section3::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+object-fit: cover;
+} */
+/* #image-overlay{
+    width: 100%;
+    height: 200%;
+    background-color: rgb(4 18 77 / 58%);
+} */
+#h5line3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bgline3{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bgline3 h1 span{
+    color: #d15f2b;
+}
+
+
+
+#box6-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#box6-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.infodigit{
+    gap: 120px;
+    background-color: #344094;
+    margin: 0px auto;
+   border-radius: 6px;
+    width: 80%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -24px;
+}
+
+#section4{
+    display: flex;
+    width:100;
+    height: 50%;
+    
+}
+
+.h5line4{
+    margin: 130px 0px 0px 0px;
+    
+ width: 45%;
+ height: 344px ;
+}
+
+.bgline3{
+    margin: 20px 0px 0px 0px;
+}
+
+#section5{
+margin: 200px 0px 0px 0px;
+    background-color: #0a1931;
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.h5line5{
+    margin: 60px 0px 0px 145px;
+}
+
+.bgline4{
+    margin: 15px 0px 0px 0px;
+}
+
+.clients-review{
+    margin: -233px 130px 0px 0px;
+    
+    position: relative;
+    float: right;
+    width: 39%;
+    height: 330px;
+    border-radius: 6px;
+    background-color: #344094;
+
+}
+
+#section6{
+    margin-top: 1px;
+    width: 100%;
+    height: 559px;
+    background: url(../IMG/h2sdrive3.bg.png) no-repeat  fixed;
+}
+
+.image-overlay-2{
+    width:100%;
+    height: 100%;
+    background-color: rgb(4 18 77 / 58%);
+}
+.bgline5{
+    margin: 0px 2px 0px 0px;
+}
+#section7{
+    background-color: #2f3b50;
+    width: 100%;
+    height: 516px;
+    display: flex;
+}
+
+.h2slogo-desc{
+    width: 28%;
+    padding: 100px 0px 0px 155px;
+}
+.h2slogo-desc img{
+    width: 336px;
+    
+}
+
+
+.bottom{
+    background-image: linear-gradient(236deg, #d4602b 52%, #344094 0%);
+    width: 100%;
+    height: 55px;
+}
+.foot1{
+    width: 50%;
+left: 135px;
+    position: relative;
+    float: left;
+}
+.foot2{
+    right: 82px;
+    position: relative;
+    float: right;
+
+}
+/* Utility Classes  */
+.para{
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    padding: 2px 2px;
+}
+.para2{
+    width: 72%;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    padding: 2px 2px;
+}
+.para3{
+    text-align: center;
+    
+   
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    padding: 65px 33px 0px 33px;
+}
+.para4{
+    padding: 25px 0px;
+    margin: 0px auto;
+    width: 41%;
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.para5{
+    text-align: left;
+    
+    width: 78%;
+   
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.para6{
+    padding: 5px 0px;
+    text-align: left;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    transition: all 0.5s ease-in-out ;
+    cursor: pointer;
+}
+.para6:hover{
+    color: #d4602b;
+}
+.para6 i{
+    color: #d4602b;
+    margin: 0px 10px 0px 0px;
+}
+.para-foot1{
+    padding: 14px 0px;
+    
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    
+}
+.para-foot2{
+    padding: 14px 0px;
+    
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #3f2c30;
+    
+}
+.para-cli-name{
+    margin: -50px 0px 0px 23px;
+    float: left;
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    
+   color: #d4602b;
+    padding: 65px 33px 0px 33px;
+}
+.para-cli{
+    margin: -22px 0px 0px -162px;
+    float: inline-start;
+    text-align: center;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    padding: 65px 33px 0px 33px;
+}
+.parablue{
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #8e8e8e;
+    margin-top: 14px;
+    padding: 2px 2px;
+}
+.parawhite{
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    
+    margin-top: 14px;
+    padding: 2px 66px;
+}
+.parabrown{
+    
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color:#432d2f;
+    margin-top: 14px;
+    padding: 2px 66px;
+} 
+.para-grey{
+    width: 82%;
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #9a9a9a;
+    margin-top: 14px;
+ 
+}
+.primary-heading{
+    
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    font-style: normal;
+}
+.elementor-divider{
+    height: 0.1px;
+    margin-top: 16px;
+    width: 255px;
+    background: #ffffff2e;
+    display: block;
+    margin-left: 100px;
+}
+.elementor-divider-blue{
+    height: 0.1px;
+    margin-top: -11px;
+    width: 412px;
+    background: #344094;
+    display: block;
+    margin-left: 95px;
+}
+.elementor-divider-grey-wcu{
+    height: 0.1px;
+    margin: -13px 0px 0px 250px;
+    
+    width: 350px;
+    background: #c3c8de;
+    display: block;
+}
+.elementor-divider-left{
+    height: 1.2px;
+    margin-top: 115px;
+    width: 255px;
+    background: #ffffff2e;
+    display: block;
+    margin-right: 49px;
+}
+.elementor-divider-right{
+    height: 1.2px;
+    margin-top: 115px;
+    width: 255px;
+    background: #ffffff2e;
+    display: block;
+    margin-left: 40px;
+}
+.elementor-divider-right-2{
+    height: 1.2px;
+    margin-top: -14px;
+    width: 355px;
+    background: #ffffff2e;
+    display: block;
+    margin-left: 200px;
+}
+
+.bgline{
+    font-family: "kanit";
+    font-size: 600;
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+}
+.heading-3{
+    margin-top: 28px;
+    color: white;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}
+.heading-3-active{
+    margin-top: 28px;
+    color: #434389;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.heading-5{
+    color: white;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.heading-5-bottom{
+    color: #cd5e2c;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.heading-5top{
+    margin-top: 115px;
+    color: white;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.heading-5blue{
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #344094;
+}
+.heading-5-wcu{
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #344094;
+}
+
+.heading-1{
+    font-family: "kanit";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+.heading-2{
+    
+    font-family: "kanit";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    color: #0a1931;
+}
+.heading-2-white  span{
+    color: #344094;
+    background-image: linear-gradient(360deg, #d15f2b 26%, transparent 0%);
+}
+.heading-2-white{
+    font-family: "kanit";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    color: white; 
+}
+.heading-3-white{
+    text-align: center;
+    margin: 0px auto;
+    width: 44%;
+    font-family: "kanit";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    padding: 60px 0px 0px 0px;
+}
+.heading-3-white  span{ 
+    color: #d15f2b;
+    background-image: linear-gradient(360deg,#344094 26%, transparent 0%);
+}
+.heading-1blue{
+      font-family: "kanit";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    color: #344094;
+}
+.btn{
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    padding: 11px 40px;
+    border: 1px solid white;
+    border-radius: 22px;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out ;
+}
+.btn:hover{
+    color: white;
+    background-color: #d15f2b;
+    border: none;
+}
+.btnblue{
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 11px 40px;
+    border-radius: 22px;
+    background-color: #d15f2b; 
+    transition: all 0.5s ease-in-out ;
+}
+   .btnblue:hover{
+       background-color: #344094;
+   }
+   
+.btnblue2{
+    margin-left: -296px;
+    width: 87%;
+    margin-top: 338px;
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 11px 40px;
+    border-radius: 22px;
+    background-color: #344094;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnblue2:hover{
+    background-color: #d15f2b;
+}
+
+.btnblue3{
+    margin-top: 35px;
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 11px 40px;
+    border-radius: 22px;
+    background-color:  #344094;
+    transition: all 0.5s ease-in-out ;
+}
+.btnblue3:hover{
+    background-color:  #d15f2b;
+}
+.btnblue4{
+    margin: 10px auto;
+    display: block;
+    justify-content: center;
+    
+    color: white;
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 12px 42px;
+    border-radius: 22px;
+    background-color: #d15f2b;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.btnblue4:hover{
+    background-color:  #344094;
+}
+
+.btn-bottom{
+    width: 47px;
+    margin: 35px 18px 0px 0px;
+    height: 45px;
+    justify-content: center;
+   
+    font-family: "Baloo Chettan 2", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    border-radius: 45px;
+    color: #0a1931;
+    background-color: #d4602b;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-bottom:hover{
+    background-color: #344094;
+    i{
+        color: white;
+    }
+}
+
+
+.form-btn{
+    margin: 15px 0px 0px 0px;
+}
+.form-btn input{
+    width: 185px;
+    text-align: center;
+    border: none;
+    height: 46px;
+    border-radius: 23px 0px 0px 23px;
+}
+.joint-btn{
+    width: 70px;
+    /* text-align: center; */
+    border: none;
+    height: 46px;
+    border-radius: 0px 23px 23px 0px;
+    margin: 0px 0px 0px -4px;
+    color:  #0a1931;
+    background-color:#d4602b ;
+    transition: all 0.5s ease-in-out;
+}
+.joint-btn:hover{
+    background-color: #344094;
+    i{
+        color: white;
+}
+}
+#button3 button{  
+    color:  #0a1931;
+    margin: 52px 17px;
+           display: flex;
+           height: 140px;
+           width: 155px;
+           box-shadow: 0px 1px 4px #bababa;
+           font-family: "kanit";
+           font-weight: 600;
+           font-style: normal;
+           font-size: 20px;
+           align-items: center;
+           justify-content: center;
+           border-radius: 8px;
+           border: none;
+         transition: all 0.5s ease-out;
+       }
+.box1{
+    padding-top: 67px;
+    background: linear-gradient(to top, #d15f2b 50%,
+    #fff 50% );
+    background-size: 100% 200%;
+    background-position: top;
+
+}
+.box1:hover{
+    background-position: bottom;
+    .btnlogo1 i{
+        color: #344094 ;
+       }
+}
+.box2{ 
+    padding-top: 67px;
+    background: linear-gradient(to top,  #344094 50%,
+    #d15f2b 50% );
+    color: white;
+    background-size: 100% 200%;
+    background-position: top;
+    
+    
+
+}
+
+.box2:hover{
+   
+    background-position: bottom;
+    .btnlogo2 i{
+        color: white ;
+       }
+    
+  
+}
+
+
+.box3{ padding-top: 67px;
+    background: linear-gradient(to top, #d15f2b 50%,
+    #fff 50% );
+    background-size: 100% 200%;
+    background-position: top;
+
+}
+.box3:hover{
+    background-position: bottom;
+  .btnlogo3 i{
+    color: #344094 ;
+   }
+}
+
+
+
+.btnlogo1 i{
+    color: #d15f2b;
+    margin-right: -44px;
+    display: flex;
+    
+  
+    margin-top: -49px;
+    align-items: center;
+    justify-content: center;
+   
+
+}   
+
+.btnlogo2 i{
+    margin-right: -92px;
+    display: flex;
+    
+    margin-top: -49px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btnlogo3 i{
+    color: #d15f2b;
+    margin-right: -110px;
+    display: flex;
+    
+    margin-top: -49px;
+    align-items: center;
+    justify-content: center;
+    
+}
+ /* .big1{
+    text-align: center;
+    border: 2px solid red;
+    width: 398px;
+    height: 395px;
+    margin: 38px 15px;
+     
+} */
+.big1-active{
+    background-color: #d15f2b;
+    cursor: text;
+   
+    position: relative;
+    width: 398px;
+    height: 435px;
+    z-index: 1;
+   border-radius: 1.5%;
+   text-align: center;
+}
+.biglogo1 i{
+    color:#434389 ;
+
+    margin-top: 38px;
+}
+.biglogo2 i{
+    color:#d4602b ;
+
+    margin-top: 38px;
+}
+.biglogo3 i{
+    color:#d4602b ;
+
+    margin-top: 38px;
+}
+#box6-1 button{
+    transition: all 0.5s ease-out;
+}
+.big1{
+    /* border: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 398px;
+    height: 435px;
+    margin: 38px 15px;
+
+    background: linear-gradient(to top, #d15f2b 50%,
+    #fff 50% ); 
+   
+    background-size: 100% 201%;
+    background-position: top; */
+    cursor: text;
+    background: transparent;
+    position: relative;
+    width: 398px;
+    height: 435px;
+    z-index: 1;
+   border-radius: 1.5%;
+   text-align: center;
+   margin: 38px 22px;
+
+}
+
+.big1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    background-color: #D4602B;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s all ease;
+
+}
+.big1:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5%;
+}
+
+
+
+.big1 i{
+    color: #D4602B;
+}
+.big1:hover i{
+    color: #344094;
+}
+.big1 i:hover{
+    cursor: default;
+}   
+.big1 h3{
+    color: white;
+    color: white;
+   
+     
+}
+.big1:hover h3{
+    color: #344094;
+}
+.big1 p{
+    color: white;
+   
+}
+.big1:hover p{
+    color: #0D1A31;
+}
+
+.big2{
+    cursor: text;
+    background: transparent;
+    position: relative;
+    width: 398px;
+    height: 435px;
+    z-index: 1;
+   border-radius: 1.5%;
+   text-align: center;
+   margin: 38px 22px;
+}
+
+.big2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    background-color: #D4602B;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s all ease;
+
+}
+.big2:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5%;
+}
+
+/* .biglogo4{
+    color:#d4602b ;
+
+    margin-top: 38px;
+}
+.biglogo5{
+    color:#d4602b ;
+
+    margin-top: 38px;
+}
+.biglogo6{
+    color:#d4602b ;
+
+    margin-top: 38px;
+} */
+
+
+.big2 i{
+    color: #D4602B;
+    margin-top: 38px;
+}
+.big2:hover i{
+    color: #344094;
+}
+.big2 i:hover{
+    cursor: default;
+}   
+.big2 h3{
+    color: white;
+    color: white;
+   
+     
+}
+.big2:hover h3{
+    color: #344094;
+}
+.big2 p{
+    color: white;
+   
+}
+.big2:hover p{
+    color: #0D1A31;
+}
+
+
+.big1-active a{
+    margin-top: 3px;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    color: #0D1A31;
+    font-weight: 600;
+    font-size: 14px;
+}
+.big1-active:hover a{
+    color:#344094;
+    transition: all 0.5s ease;
+
+}
+
+.big1 a{
+    margin-top: 3px;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    text-decoration: none;
+    text-decoration: none;
+    list-style: none;
+    color: #D4602B;
+    font-weight: 600;
+    font-size: 14px;
+}
+.big1:hover a{
+    color: #0D1A31;
+    transition: all 0.5s ease;
+
+}
+.big2 a{
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    text-decoration: none;
+    text-decoration: none;
+    list-style: none;
+    color: #D4602B;
+    font-weight: 600;
+    font-size: 14px;
+}
+.big2:hover a{
+    color: #0D1A31;
+    transition: all 0.5s ease;
+
+}
+
+
+
+.digit{
+  
+  font-family: "kanit";
+  font-size: 30px ;
+  font-style: normal;
+  font-weight: 600;
+
+  color: white;
+}
+
+.digit i{
+    margin-left: 3px;
+    color: #D4602B;
+    
+}
+
+.parawhite2{
+    font-family: "baloo chettan 2";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.duo-img{
+    
+   
+    width: 45%;
+height: 344px;
+}
+.duo1 img{
+    border-radius: 6px;
+    width: 344px;
+    margin: 60px 0px 0px 190px;
+    position: relative;
+
+   
+}
+.duo2 img{
+    border-radius: 6px;
+    position: absolute;
+    margin: -130px 0px 0px 329px;
+    width: 205px;
+}
+
+.h5line4 a{
+   padding: 0px 70px;
+    font-family: "baloo chettan 2";
+    font-style: normal;
+    text-decoration: none;
+    text-decoration: none;
+    list-style: none;
+    color: #0D1A31;
+    font-weight: 600;
+    font-size: 16px;
+}
+.h5line4 a:hover{
+    color: #D4602B;
+    transition: all 0.5s ease;
+}
+.five-star{
+    margin: 45px 0px 0px 54px;
+}
+.five-star i{
+    color: #d4602b;
+    padding: 0px 2px;
+}
+.qoute-left{
+    position: relative;
+    float: right;
+    margin: -30px 55px 0px 0px;
+    color: #5962a7;
+}
+.clients-collab{
+    margin: 0px 0px 0px 75px;
+}
+.clients-collab img{
+    width: 170px;
+    padding: 30px 25px;
+}
+.bottom-info{
+  
+    margin: 100px 16px;
+    width: 255px;
+    height: 310px;
+    
+}
+/* .big1:hover{
+    background-position: bottom;
+   .biglogo3 i{
+    color: #434389;
+  }
+  .biglogo2 i{
+    color: #434389;
+  }
+  .heading-3{
+    color: #434389;
+  }
+  .parabrown{
+    color:#432d2f ;
+  } */
+    
+/* .big2{
+    border: 2px solid red;
+    width: 350px;
+    height: 270px;
+
+} */
